@@ -6,7 +6,7 @@ let buttonHandler = () => {
 genBtn.addEventListener("click", buttonHandler);
 
 function addNewPassword() {
-  const randomArray = [
+  const characterArray = [
     //prettier-ignore
     ['~','`','!','@','$','%','^','&','*','(',')','-','_','+','=','#'],
     //prettier-ignore
@@ -17,12 +17,12 @@ function addNewPassword() {
     ["A",'B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'],
   ];
 
-  const pwLength = Math.floor(Math.random() * 9) + 10;
+  const passwordLength = Math.floor(Math.random() * 9) + 10;
   let randomPassword = [];
 
-  for (let i = 0; i < pwLength; i++) {
+  while (randomPassword.length < passwordLength) {
     let randomIndex =
-      randomArray[Math.floor(Math.random() * randomArray.length)];
+      characterArray[Math.floor(Math.random() * characterArray.length)];
     let randomSelector = Math.floor(Math.random() * randomIndex.length);
     randomPassword.push(randomIndex[randomSelector]);
   }
