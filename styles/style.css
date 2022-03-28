@@ -20,6 +20,8 @@ body {
   background-color: #d7d7d7;
   padding-left: 6rem;
   padding: 10rem;
+  border-radius: 11px;
+  box-shadow: 8px 4px 8px 0 rgba(0, 0, 0, 0.15);
 }
 
 .box h2 {
