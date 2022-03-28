@@ -18,12 +18,12 @@ body {
 }
 .box {
   background-color: #d7d7d7;
-  padding-left: 60px;
+  padding-left: 6rem;
   padding: 10rem;
 }
 
 .box h2 {
-  margin-bottom: 40px;
+  margin-bottom: 4rem;
   text-align: center;
   font-size: 3.2rem;
   color: #000;
@@ -46,7 +46,7 @@ input ::placeholder {
 
 #btnGen {
   display: flex;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: 500;
   background-color: #74c0fc;
   color: #fff;
@@ -55,15 +55,17 @@ input ::placeholder {
   border-radius: 11px;
   cursor: pointer;
   text-align: center;
-  margin-top: 40px;
-  width: 150px;
-  height: 50px;
-  padding-top: 10px;
+  margin-top: 4rem;
+  width: 15rem;
+  height: 4.6rem;
+  padding-top: 1rem;
   margin-left: 30%;
   transition: 0.3s background-color, transform 0.3s;
 }
 #btnGen:hover {
-  transform: translateY(-2px);
   color: #fff;
   background-color: #339af0;
+}
+#btnGen:active {
+  transform: translateY(2px);
 }
