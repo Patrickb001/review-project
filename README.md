@@ -20,6 +20,7 @@
 - How to generate a random number and make sure the number has a minimum of N
 
 function addNewPassword() {
+
   const characterArray = [
     ['~','`','!','@','$','%','^','&','*','(',')','-','_','+','=','#'],
     
@@ -41,6 +42,7 @@ function addNewPassword() {
   }
 
   return randomPassword.join("");
+  
 }
 
 
