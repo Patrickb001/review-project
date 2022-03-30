@@ -1,14 +1,5 @@
 # Guess My Number Project
 
-## Table of contents
-
-- [Overview](#overview)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
 ## Overview
 - Random password generator
 - Generates password with click of a button
