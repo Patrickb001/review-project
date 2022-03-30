@@ -1,4 +1,4 @@
-# Guess My Number Project
+# Random Password Generator
 
 ## Overview
 - Random password generator
